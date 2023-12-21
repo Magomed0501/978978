@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <style>
+     .img1 {
+      position: relative;
+      width: 200px;
+      height: 100px;
+      animation: drive 2s linear forwards;
+    }
+
+    @keyframes drive {
+      0% {
+        left: -200px;
+      }
+      95% {
+        left: calc(100vw - 250px);
+      }
+      100% {
+        left: calc(100vw - 200px);
+      }
+    }
+  </style>
+</head>
+<body>
+  
+  <div class="car"></div>
+  <img class="img1" src="img/2016-yeni-kasa-mercedes-c63-amg-coupe-2.jpg" alt="">
+</body>
+</html>
